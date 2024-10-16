@@ -8,6 +8,17 @@
     border-radius: 2px; /*bo góc */
     cursor: pointer;/*thay đổi con trỏ chuột thành hình bàn tay khi hover*/
     margin-right: 8px;
+    transition: opacity 1s,background-color 1s; /*set thời gian chuyển đổi */
+  }
+
+  .subscribe-button:hover{
+    /*when chạm vào*/
+    opacity: 0.5; /* độ trong suốt 0(trong suốt) ->1(ko trong suốt)*/
+  }
+
+  .subscribe-button:active{
+    /*when bấm vào*/
+    background-color: yellow;
   }
 
   .join-button{
@@ -20,7 +31,16 @@
     width: 60px;
     border-radius: 2px;
     cursor: pointer;
-  
+    transition: background-color 0.5s,color 0.5s;
+  }
+
+  .join-button:hover{
+    background-color: rgb(7, 163, 242);
+    color: white;
+  }
+
+  .join-button:active{
+    opacity: 0.7;
   }
 
   .tweet-button{
@@ -34,8 +54,12 @@
     font-size: 15px;
     cursor: pointer;
     margin-left: 8px;
+    transition: box-shadow 0.15s;
   }
 
+  .tweet-button:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 1); /*ngang dọc mờ màu */
+  }
 </style>
 
 <button class="subscribe-button">
