@@ -3,7 +3,13 @@ p{
   margin-top: 0;
   margin-bottom: 0;
 }
+img{
+  width: 300px;
+  height: 300px;
+  object-fit: cover; /* giãn tấm ảnh theo width và height */ /*contain: fix tấm ảnh vừa trong khung */
 
+  object-position: left; /* lệch ảnh theo hướng */
+}
 .test{
   font-size: 11px;
   font-weight: bold;  /* chữ đậm */
