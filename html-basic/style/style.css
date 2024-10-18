@@ -1,0 +1,70 @@
+p{
+  font-family: Roboto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.test{
+  font-size: 11px;
+  font-weight: bold;  /* chữ đậm */
+  line-height: 20px;  /* giãn dòng */
+  font-style: italic; /* chữ nghiêng */
+  text-align: center;
+  text-decoration: underline; /* gạch dưới */
+}
+
+.video-title{
+  font-size: 18px;
+  font-weight: bold;
+  width: 250px; 
+  line-height: 20px;
+  margin-bottom: 5px;
+}
+
+.video-stats{
+  font-size: 13px;
+  color: rgb(56, 55, 55);
+  margin-bottom: 20px;
+}
+
+.video-author{
+  color: rgb(56, 55, 55);
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.video-description{
+  color: rgb(56, 55, 55);
+  font-size: 13px;
+  width: 250px;
+  line-height: 20px;
+  margin-bottom: 50px;
+}
+
+.apple-text{
+  font-size: 14px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+}
+
+.shop-link{
+  cursor: pointer;
+}
+
+.shop-link:hover{
+  text-decoration: underline;
+}
+
+.contact-us{
+  text-align: center;
+}
+
+.link-contact-us{
+  color: red;
+  margin-left: 12px;
+  
+}
