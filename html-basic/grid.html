@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .grid{
+      display: grid;
+      grid-template-columns: 100px 100px 200px;
+    }
+    .grid-fr{
+      margin-top: 15px;
+      display: grid;
+      grid-template-columns: 100px 1fr 2fr;
+    }
+  </style>
+</head>
+<body>
+  <div class="grid">
+    <div style="background-color: brown;">div1</div>
+    <div style="background-color: rgb(13, 222, 51);">div2</div>
+    <div style="background-color: aqua;">div3</div>
+    <div style="background-color: rgb(193, 116, 9);">div4</div>
+  </div>
+  <div class="grid-fr">
+    <div style="background-color:aqua;">DIV1</div>
+    <div style="background-color:rgb(255, 81, 0);">DIV2</div>
+    <div style="background-color:rgb(255, 0, 162);">DIV3</div>
+    <div style="background-color:rgb(9, 203, 93);">DIV4</div>
+  </div>
+  <div class="grid-fr">
+    <div style="background-color:aqua; height: 100px;">DIV1</div>
+    <div style="background-color:rgb(255, 81, 0); height: 200px;">DIV2</div>
+    <div style="background-color:rgb(255, 0, 162); height: 300px;">DIV3</div>
+    <div style="background-color:rgb(9, 203, 93);">DIV4</div>
+  </div>
+</body>
+</html>
